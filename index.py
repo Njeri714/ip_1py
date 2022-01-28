@@ -53,3 +53,30 @@ def main():
                     User.generate_menu()
                     choice = int(input("Enter a value:\n"))
                     break
+
+        elif choice == 2:
+            print("***LOGIN TO THE ACCOUNT***")
+            username = input("Enter your username\n")
+            password = input("Enter your Your password\n")
+            for userData in User.disply_user_accounts():
+                if userData.username == username and userData.password == password:
+                    print(f"{username} is successfully logged in!!\n")
+                    User.generate_menu_after_login()
+                    choice_login = int(input("Enter a value:\n"))
+                    while True:
+                        if choice_login == 1:
+                            User.delete_user_account()
+                            print("ACCOUNT SUCCESSFULY DELETED\n")
+                            User.generate_menu()
+                            choice = int(input("Enter a value:\n"))
+                            break
+                        elif choice_login == 2:
+                            print("***YOUR ACCOUNT DATA***")
+                            Creditials.generate_all_saved_accounts()
+                            User.generate_menu()
+                            choice = int(input("Enter a value:\n"))
+                            break
+                        elif choice_login == 3:
+                            User.generate_menu()
+                            choice = int(input("Enter a value:\n"))
+                            break
