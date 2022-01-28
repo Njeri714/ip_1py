@@ -71,3 +71,10 @@ class User:
         display user accounts returns all the saved user accounts
         '''
         return User.user
+
+# new_user = User("Charity", "Waweru", "njeri", "714")
+# print(new_user.save_user())
+# new_user.generate_menu()
+# print(User.find_user_account("njeri"))
+# print(new_user.save_user())
+# print(User.disply_user_accounts()
