@@ -92,4 +92,38 @@ def main():
             print("***GET ACCOUNT DATA***")
             Creditials.generate_all_saved_accounts()
             while True:
-                
+                User.generate_menu()
+                choice = int(input("Enter a value:\n"))
+                break
+
+        elif choice == 4:
+            print("***GET YOUR PASSWORD***")
+            username = input("Enter your username\n")
+            new_username = Creditials()
+            print("Your password: "+new_username.password_generate(username)+"\n")
+            while True:
+                User.generate_menu()
+                choice = int(input("Enter a value:\n"))
+                break
+
+        elif choice == 5:
+            print("***ABOUT THE APPLICATION***")
+            print("This is a project which run on a terminal, where a user can create an account with a preferred a username. The application can display various saved accounts. And, lastly the user can delete the account.")
+            print("\n")
+            while True:
+                User.generate_menu()
+                choice = int(input("Enter a value:\n"))
+                break
+
+        elif choice == 6:
+            print("\n")
+            print("APPLICATION CLOSED...\n***SEE YOU AGAIN***")
+            exit()
+        else:
+            print("###Invalid input...Please check the selection number and try again***")
+            User.generate_menu()
+            choice = int(input("Enter a value:\n"))
+
+
+main()
+
