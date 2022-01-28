@@ -19,4 +19,4 @@ email charity.waweru@student.moringaschool.com
 ## Licences MIT
 Copyright(c){2022}{Cgarity Waweru} Permission is hereby granted, free of charge, to any person obtaining a copy of this project. The person can clone to add any specification that meets his or her requirements.
 
-MIT ©2022 CrCharuty Waweru
+MIT ©2022 Charity Waweru
