@@ -1,7 +1,9 @@
 ## Project Name: Password Lock
 ## Project Description
-This is a project which run on a terminal, where a user can create an account with a preferred a username. The application can display various saved accounts. And, lastly the user can delete the account.
+This is a project which run on a terminal, where a user can create an account with a preferred a username. The application can display various saved accounts. Lastly, the user can delete the account.
 ## Project Author : Charity Waweru
+## Offer
+* User can create account, log in, view data on the account and they can delete account
 ## Features
 1. Create an Account.
 2. Login to the Account.
@@ -10,6 +12,8 @@ This is a project which run on a terminal, where a user can create an account wi
 5. Delete Account.
 ## Technologies Used
 * Python3.8
+## Setup
+
 ## Contacts
 email charity.waweru@student.moringaschool.com
 ## Licences MIT
