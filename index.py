@@ -80,3 +80,16 @@ def main():
                             User.generate_menu()
                             choice = int(input("Enter a value:\n"))
                             break
+            
+            else:
+                    print(
+                        f"No such username:({username}) found in the application. Please create an account or check your password!\n")
+                    User.generate_menu()
+                    choice = int(input("Enter a value:\n"))
+                    break
+
+        elif choice == 3:
+            print("***GET ACCOUNT DATA***")
+            Creditials.generate_all_saved_accounts()
+            while True:
+                
